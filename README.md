@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">🧭 Mentor Skills</h1>
-  <p align="center">mentor-skills — 想清楚 · 做清楚 · 说清楚</p>
+  <p align="center">想清楚 · 做清楚 · 说清楚<br>Think Clearly · Execute Clearly · Communicate Clearly</p>
 </p>
 
 <p align="center">
@@ -9,16 +9,18 @@
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
 </p>
 
+<p align="center">
+  <a href="#-中文">🇨🇳 中文</a> · <a href="#-english">🇬🇧 English</a>
+</p>
+
 ---
+
+# 🇨🇳 中文
 
 ## 📋 目录
 
-- [📋 目录](#-目录)
 - [🎯 理念](#-理念)
 - [🧩 技能速览](#-技能速览)
-  - [1. mentor-challenge — 方案拷问](#1-mentor-challenge--方案拷问)
-  - [2. mentor-guide — 技术指南](#2-mentor-guide--技术指南)
-  - [3. mentor-reflect — 复盘提炼](#3-mentor-reflect--复盘提炼)
 - [🚀 快速使用](#-快速使用)
 - [📁 项目结构](#-项目结构)
 - [📐 设计原则](#-设计原则)
@@ -69,9 +71,9 @@ Mentor Skills 围绕这三个痛点，提供一套结构化、可执行的技能
 
 | 场景 | 示例话术 |
 |------|----------|
-| 方案评审 | "帮我review一下这个设计方案" |
+| 方案评审 | "帮我 review 一下这个设计方案" |
 | 问题排查 | "服务启动报错，排查一下" |
-| 技术选型 | "FlinkSQL调优最佳实践？" |
+| 技术选型 | "FlinkSQL 调优最佳实践？" |
 | 复盘总结 | "帮我复盘一下这次日常事故" |
 
 AI 会自动根据你的描述路由到合适的子技能，无需手动切换。
@@ -122,6 +124,123 @@ Copyright © 2026 mentor-skills
 ## 🙏 致谢
 
 本项目的设计和实现受到以下开源技能包的启发，感谢所有开源社区的贡献者：
+
+- [nature-skills](https://github.com/nature-skill)
+- [myyyyyyz/master-skill](https://github.com/myyyyyyz/master-skill)
+- [byted-volcengine-flink](https://github.com/byted-volcengine-flink)
+- [grill-me](https://github.com/mattpocock/skills)
+
+---
+
+# 🇬🇧 English
+
+## 📋 Table of Contents
+
+- [🎯 Philosophy](#-philosophy)
+- [🧩 Skills at a Glance](#-skills-at-a-glance)
+- [🚀 Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+- [📐 Design Principles](#-design-principles)
+- [📄 License](#-license)
+- [🙏 Acknowledgements](#-acknowledgements)
+
+---
+
+## 🎯 Philosophy
+
+Three common bottlenecks in a developer's growth: **unclear thinking, unclear execution, unclear communication**.
+
+Mentor Skills revolves around these three pain points, providing a structured, actionable skill framework that helps developers build systematic ways of thinking and working.
+
+| Stage | Goal | Skill |
+|-------|------|-------|
+| 🧠 **Think Clearly** | Review requirements & designs, expose blind spots | mentor-challenge |
+| 🔧 **Execute Clearly** | Best practices & debugging with credible sources | mentor-guide |
+| 📝 **Communicate Clearly** | Structured retrospectives, turn experience into knowledge | mentor-reflect |
+
+---
+
+## 🧩 Skills at a Glance
+
+### 1. mentor-challenge — Design Review
+
+When you need to review requirements, PRDs, or technical designs, the **6D Questioning Framework** probes goals, logic, design, risks, costs, and alternatives — one by one — to uncover overlooked issues.
+
+> **In a word**: A full health check for your design.
+
+### 2. mentor-guide — Technical Guidance
+
+When you encounter bugs, errors, performance issues, or technology choices, follow the principle of **research first, diagnose before prescribe** — delivering traceable technical advice backed by credible sources.
+
+> **In a word**: A reliable technical compass.
+
+### 3. mentor-reflect — Retrospective & Refinement
+
+When a technical decision, incident, or project experience needs to be consolidated, use the **BSSR four-stage model** (Background → Struggle → Solution → Reflection) to distill scattered experiences into reusable principles.
+
+> **In a word**: Make every experience count.
+
+---
+
+## 🚀 Quick Start
+
+Enable this skill pack in an AI coding assistant that supports the Skill system (e.g., Trae IDE), then simply describe your needs:
+
+| Scenario | Example Prompt |
+|----------|---------------|
+| Design Review | "Review this design proposal for me" |
+| Debugging | "My service fails to start, help me debug" |
+| Tech Selection | "Best practices for microservice gateway?" |
+| Retrospective | "Help me retrospect this incident" |
+
+The AI will automatically route your request to the appropriate sub-skill — no manual switching needed.
+
+---
+
+## 📁 Project Structure
+
+```
+mentor-skills/
+├── SKILL.md                          # Root skill definition (router)
+├── mentor-challenge/                 # Design review sub-skill
+│   ├── SKILL.md
+│   └── references/
+│       └── questioning-framework.md
+├── mentor-guide/                     # Technical guidance sub-skill
+│   ├── SKILL.md
+│   ├── references/                   # Debugging framework, search strategies, source credibility
+│   ├── examples/                     # Service discovery, OOM debugging, etc.
+│   └── templates/                    # Best practice & debugging templates
+└── mentor-reflect/                   # Retrospective sub-skill
+    ├── SKILL.md
+    ├── references/                   # BSSR model, guiding questions, principle refinement
+    ├── examples/                     # Redis big-key incident review
+    └── templates/                    # Review report template
+```
+
+---
+
+## 📐 Design Principles
+
+1. **Ask before answer** — Understand the context before responding
+2. **Structure first** — All outputs follow defined frameworks for consistency
+3. **Source traceability** — Every conclusion is tagged with credibility level and source
+4. **Teach to fish** — Provide not just answers, but methods and frameworks
+5. **Read-only mode** — Never modify user code without explicit request (challenge mode)
+
+---
+
+## 📄 License
+
+This project is open-sourced under the [MIT License](LICENSE).
+
+Copyright © 2026 mentor-skills
+
+---
+
+## 🙏 Acknowledgements
+
+The design and implementation of this project were inspired by the following open-source skill packs. Thanks to all open-source contributors:
 
 - [nature-skills](https://github.com/nature-skill)
 - [myyyyyyz/master-skill](https://github.com/myyyyyyz/master-skill)
