@@ -125,10 +125,10 @@ Copyright © 2026 mentor-skills
 
 本项目的设计和实现受到以下开源技能包的启发，感谢所有开源社区的贡献者：
 
-- [nature-skills](https://github.com/nature-skill)
-- [myyyyyyz/master-skill](https://github.com/myyyyyyz/master-skill)
-- [byted-volcengine-flink](https://github.com/byted-volcengine-flink)
-- [grill-me](https://github.com/mattpocock/skills)
+- nature-skills
+- myyyyyyz/master-skill
+- byted-volcengine-flink
+- grill-me
 
 ---
 
@@ -242,10 +242,10 @@ Copyright © 2026 mentor-skills
 
 The design and implementation of this project were inspired by the following open-source skill packs. Thanks to all open-source contributors:
 
-- [nature-skills](https://github.com/nature-skill)
-- [myyyyyyz/master-skill](https://github.com/myyyyyyz/master-skill)
-- [byted-volcengine-flink](https://github.com/byted-volcengine-flink)
-- [grill-me](https://github.com/mattpocock/skills)
+- nature-skills
+- myyyyyyz/master-skill
+- byted-volcengine-flink
+- grill-me
 
 ---
 
